@@ -1,9 +1,9 @@
 import sentry_sdk
 
-# sentry_sdk.init(
-#     dsn="<dsn-key-here>",
-#     traces_sample_rate=0.85,
-# )
+sentry_sdk.init(
+     dsn="<your-dsn-key-here>",
+     traces_sample_rate=0.85,
+)
 
 import logging
 from test_div import test_division
